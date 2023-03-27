@@ -18,7 +18,7 @@ BEGIN
         INTO procduce_id 
         FROM projects 
         WHERE name = procduce_id;
-    INSERT INTO corrections(user_id,procduce_id,score)
-        VALUES (user_id,procduce_id,score);
+    INSERT INTO corrections(user_id,project_id,score)
+        VALUES (user_id,project_id,score);
 END $$
 DELIMITER ;
