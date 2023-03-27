@@ -1,4 +1,4 @@
---- create users table in hoberton DB
+-- create users table in hoberton DB
 DROP TABLE IF EXISTS users;
 CREATE TABLE users (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
