@@ -1,3 +1,4 @@
+-- decreases the quantity of an item after adding a new order
 DROP TRIGGER IF EXISTS sub;
 DELIMITER $$
 CREATE TRIGGER sub
